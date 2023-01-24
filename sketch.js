@@ -38,9 +38,10 @@ function draw() {
 			}
 		}
 		else{
+			console.log(second(), s);
 			fill(random()*255);
 			circle(random(310,440), random(410,540), 5);
-			s++;
+			s=second();
 		}
 	}
 }
